@@ -1,0 +1,64 @@
+
+
+leiviskä_lkm = float (input("anna leivisköjen määrä:"))
+naulat_lkm =float (input("anna naulojen määrä:"))
+luodit_lkm =float (input("anna luotien määrä:"))
+#lasketaan leiviskät mukaan nauloihin
+naulat_lkm =leiviskä_lkm*20 + naulat_lkm
+naulat_lkm=naulat_lkm*32+luodit_lkm
+#lasketaan naulat mukaan luoteihin
+print ("koko massa luoteina:) + luodit_lkm")
+
+naulat_lkm = leiviskät_lkm * 20 + naulat_lkm
+#välitarkastus; että kaikki toimii#print(f"kokomassa luoteina:{luodit_lkm")
+massa_g =luodit_lkm* 32*13.3
+print(f"massa nykymittojen mukaan:{massa_g/1000} kiloa ja {massa_g% 1000} grammaa.")
+
+
+                  
+
+
+
+
+#kolikonheitto simulaattori
+import random
+random_number = random.randint(0,1)
+if random_number == 0:
+    result = "kruuna"
+else:
+    result = "klaava"
+
+print(f"heitit kolikkoa ja sait {result}.")
+elif random_number
+random_number = random.random()
+# koilkko jää pystyyn
+if random_number < 0.01:
+    print("kolikko jäi pystyyn")
+elif random_number <0.505:
+
+    print("kruuna tuli")
+else:
+    print("klaava tuli")
+    
+if random_number == 0:result = "kruuna"
+
+
+result = "klaava" print ("klaava")
+
+
+print(f"heitit kolikkoa ja sait {result}.")
+onko_totta = False
+if onko_totta:
+    print("tosi")
+arvo=150
+print (90 < arvo 110)
+print (100 != 101)
+
+#kalvo esimerkki
+ikä = int(input
+ikä = int(input("Anna ikäsi: "))
+if ikä 15<= ikä 18:
+    paino = float(input(anna paino (kg)
+if ikä=> 18 or (ikä>=15 and paino >=55):
+    print("lääkkeen käyttö sallittu")
+    print(not true)
